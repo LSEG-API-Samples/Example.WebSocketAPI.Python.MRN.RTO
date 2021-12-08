@@ -19,3 +19,14 @@ For further details on Service Discovery and parsing Refinitiv Machine Readable 
 <a href="https://developers.refinitiv.com/en/api-catalog/refinitiv-real-time-opnsrc/refinitiv-websocket-api/quick-start" target="_blank">Websocket API QuickStart</a>
 <a href="https://developers.refinitiv.com/en/api-catalog/refinitiv-real-time-opnsrc/refinitiv-websocket-api/documentation" target="_blank">Websocket API & RTO Documentation</a>
 <a href="https://developers.refinitiv.com/en/api-catalog/refinitiv-real-time-opnsrc/refinitiv-websocket-api/tutorials#connect-to-refinitiv-real-time-optimized" target="_blank">Websocket API Tutorials</a>
+
+### REGION choice 
+The example currently has the region coded as *'us-east-1'*. If you are in a different region, you can change this value - allowing the service discovery mechanism to select a potentially closer host/endpoint.
+
+The current available region choices are:
+* *eu-west-1* 
+* *ap-southeast-1*
+* *us-east-1*
+* *us-east-2*
+
+You can find more information on the regions and their associated endpoints by referring to the <a href="https://developers.refinitiv.com/en/api-catalog/refinitiv-real-time-opnsrc/refinitiv-websocket-api/documentation#refinitiv-real-time-optimized-install-and-config-guide" target="_blank">RTO Documentation</a>.
