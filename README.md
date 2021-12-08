@@ -30,3 +30,21 @@ The current available region choices are:
 * *us-east-2*
 
 You can find more information on the regions and their associated endpoints by referring to the <a href="https://developers.refinitiv.com/en/api-catalog/refinitiv-real-time-opnsrc/refinitiv-websocket-api/documentation#refinitiv-real-time-optimized-install-and-config-guide" target="_blank">RTO Documentation</a>.
+
+## Prerequisite
+This example requires the following dependencies softwares and libraries.
+1. RDP Credentials with MRN Service.
+2. [Python](https://www.python.org/) compiler and runtime
+3. Python's [requests 2.x](https://pypi.org/project/requests/) library.
+4. Python's [websocket-client](https://pypi.org/project/websocket-client/) library (*version 1.2.1 or greater*).
+
+### Running the example
+1. Go to project folder in console  
+2. Run ```$> pip install -r requirements.txt``` command in a console to install all the dependencies libraries.  
+3. Then you can run example application with the following command  
+    `$> python mrn_rdpgw_service_discovery.py --client_id <RDP Client ID/AppKey> --user <RDP Username> --password <RDP Password>`  
+    
+The above will run with the default region - which you can override on the command line e.g.  
+    `$> python mrn_rdpgw_service_discovery.py --client_id <RDP Client ID/AppKey> --user <RDP Username> --password <RDP Password> --region eu-west-1`
+
+
