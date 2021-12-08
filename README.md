@@ -9,7 +9,7 @@ we don't have an example that combines both of the above.
 
 We have been asked by inexperienced coders if we provide such an example - as they don't wish to rely on a single hardcoded endpoint when consuming MRN data.
 
-To address this, I have simply taken the exsiting source code for a <a href="https://github.com/Refinitiv/websocket-api/blob/master/Applications/Examples/RDP/python/market_price_rdpgw_service_discovery.py" target="_blank">Service Discovery example</a> and combined it with an <a href="https://github.com/Refinitiv-API-Samples/Example.WebSocketAPI.Python.MRN/tree/ERT-in-Cloud" target="_blank">MRN_STORY example</a> to produce the attached example.
+To address this, I have simply taken the existing source code for a <a href="https://github.com/Refinitiv/websocket-api/blob/master/Applications/Examples/RDP/python/market_price_rdpgw_service_discovery.py" target="_blank">Service Discovery example</a> and combined it with an <a href="https://github.com/Refinitiv-API-Samples/Example.WebSocketAPI.Python.MRN/tree/ERT-in-Cloud" target="_blank">MRN_STORY example</a> to produce the attached example.
 
 This example has only undergone basic testing, and is itself based on other educational examples and is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
