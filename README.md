@@ -15,10 +15,10 @@ This example has only undergone basic testing, and is itself based on other educ
 
 For further details on Service Discovery and parsing Refinitiv Machine Readable News Stories, please refer to the above links and Websocket API and RTO documentation materials:
 
-<a href="https://github.com/Refinitiv-API-Samples/Example.WebSocketAPI.Python.MRN/tree/ERT-in-Cloud" target="_blank">Websocket API MRN Tutorial example</a>
-<a href="https://developers.refinitiv.com/en/api-catalog/refinitiv-real-time-opnsrc/refinitiv-websocket-api/quick-start" target="_blank">Websocket API QuickStart</a>
-<a href="https://developers.refinitiv.com/en/api-catalog/refinitiv-real-time-opnsrc/refinitiv-websocket-api/documentation" target="_blank">Websocket API & RTO Documentation</a>
-<a href="https://developers.refinitiv.com/en/api-catalog/refinitiv-real-time-opnsrc/refinitiv-websocket-api/tutorials#connect-to-refinitiv-real-time-optimized" target="_blank">Websocket API Tutorials</a>
+<a href="https://github.com/Refinitiv-API-Samples/Example.WebSocketAPI.Python.MRN/tree/ERT-in-Cloud" target="_blank">Websocket API MRN Tutorial example</a>  
+<a href="https://developers.refinitiv.com/en/api-catalog/refinitiv-real-time-opnsrc/refinitiv-websocket-api/quick-start" target="_blank">Websocket API QuickStart</a>  
+<a href="https://developers.refinitiv.com/en/api-catalog/refinitiv-real-time-opnsrc/refinitiv-websocket-api/documentation" target="_blank">Websocket API & RTO Documentation</a>  
+<a href="https://developers.refinitiv.com/en/api-catalog/refinitiv-real-time-opnsrc/refinitiv-websocket-api/tutorials#connect-to-refinitiv-real-time-optimized" target="_blank">Websocket API Tutorials</a>  
 
 ### REGION choice 
 The example currently has the region coded as *'us-east-1'*. If you are in a different region, you can change this value - allowing the service discovery mechanism to select a potentially closer host/endpoint.
