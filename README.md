@@ -47,4 +47,6 @@ This example requires the following dependencies softwares and libraries.
 The above will run with the default region - which you can override on the command line e.g.  
     `$> python mrn_rdpgw_service_discovery.py --client_id <RDP Client ID/AppKey> --user <RDP Username> --password <RDP Password> --region eu-west-1`
 
+Also, since this example used the <a href="https://github.com/Refinitiv/websocket-api/tree/master/Applications/Examples/RDP/python" target="_blank">RDP Service Discovery example</a>, it includes some of the other command line options including **Hot Standby**, ability to change RDP password etc.
+Please refer to the notes for the service discovery example for more details.
 
