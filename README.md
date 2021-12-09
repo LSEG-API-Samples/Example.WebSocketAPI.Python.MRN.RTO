@@ -37,6 +37,7 @@ This example requires the following dependencies softwares and libraries.
 2. [Python](https://www.python.org/) compiler and runtime
 3. Python's [requests 2.x](https://pypi.org/project/requests/) library.
 4. Python's [websocket-client](https://pypi.org/project/websocket-client/) library (*version 1.2.1 or greater*).
+5. A few other libraries as listed in requirements.txt file
 
 ### Running the example
 1. Go to project folder in console  
